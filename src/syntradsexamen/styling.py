@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 
 # --- Professional muted color palette ---
+SAGE = '#6B8E7F'
 GRAY = '#8C8C8C'
 TAN = '#D4A373'
-SAGE = '#6B8E7F'
 GOLDENROD = '#B8860B'
 SLATE = '#708090'
 ROSY = '#BC8F8F'
@@ -13,7 +13,7 @@ OLIVE = '#556B2F'
 BROWN = '#8B7355'
 CADET = '#5F9EA0'
 
-PALETTE = [GRAY, TAN, SAGE, GOLDENROD, SLATE, ROSY, OLIVE, BROWN, CADET]
+PALETTE = [SAGE, GRAY, TAN, GOLDENROD, SLATE, ROSY, OLIVE, BROWN, CADET]
 
 # --- Statistical reference line colors ---
 MEAN_COLOR = '#CC0000'
