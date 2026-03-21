@@ -18,7 +18,7 @@ COL_NAAM = "naam"
 COL_GESLACHT = "geslacht"
 COL_VERWACHTE_DATUM = "verwachte_datum"      # renamed from "verwachte datum"
 COL_GEBOORTEDATUM = "geboortedatum"          # datetime parsed from filename
-COL_DAG_VAN_HET_JAAR = "dag_van_het_jaar"    # 1-365
+COL_DAG_VAN_HET_JAAR = "dag_van_jaar"    # 1-365
 
 # Gender mapping (Dutch → short code)
 GENDER_MAP = {

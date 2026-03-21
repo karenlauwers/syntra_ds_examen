@@ -41,7 +41,7 @@ Delimiter: , (comma). If ambiguous, allow auto‑detection with Python engine fa
 - geslacht → category with levels: F, M, X, Unknown
 - verwachte_datum → datetime64[ns] (NaT allowed)
 - Added: date_of_birth → datetime64[ns], derived from filename (date only)
-- Added: source → string, just the basename like 2019-01-01.csv
+- Added: number of day 1 - 365, 1 for 1/1/2019, 2 for 1/2/2019 etc
 
 ### Constraints:
 - date_of_birth must be not null for all rows.
