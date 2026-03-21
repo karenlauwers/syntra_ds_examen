@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syntradsexamen"
+version = "0.1.0"
+description = "examen data scientist 1"
+authors = [{name = "Karen Lauwers"}]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2,<2.3",
+    "numpy>=1.26,<1.27",
+    "pyarrow",
+    "openpyxl",
+    "scikit-learn>=1.5,<1.6",
+    "scipy",
+    "joblib>=1.4,<1.5",
+    "matplotlib>=3.9,<3.10",
+    "seaborn>=0.13,<0.14",
+    "tqdm>=4.66,<4.67",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
