@@ -1,9 +1,9 @@
 # Plan: Belgian Births 2019 — Exam Assignment
 
 ## Context
-Karen needs to complete a Syntra data science exam analyzing simulated Belgian birth data for 2019. The assignment is in notebooks/opgave.ipynb (read-only reference with expected outputs). We'll work in notebooks/opgave_copy.ipynb step by step.
+Karen needs to complete a Syntra data science exam analyzing simulated Belgian birth data for 2019. The assignment is in notebooks/opgave.ipynb (read-only reference with expected outputs). We'll work in notebooks/opgave.ipynb step by step.
 Working Notebook
-notebooks/opgave_copy.ipynb — all code goes here.
+notebooks/opgave.ipynb — all code goes here.
 
 ## Steps (in order)
 ### Stap 1: Data Inlezen (1 pt)
@@ -53,7 +53,7 @@ We work one step at a time. For each step:
 
 ## Project Structure Conventions
 •	src/syntradsexamen/config.py — All filepaths and stable variables go here (DATA_DIR, column names, etc.)
-•	src/syntradsexamen/styling.py — Karen will add the teacher's styling first, then I review for completeness/correctness
+•	src/syntradsexamen/styling.py — Karen will add thestyling first, then I review for completeness/correctness
 •	Shared code lives in the package; notebooks import from it
 
 ## Column Naming Conventions

@@ -46,7 +46,7 @@ Delimiter: , (comma). If ambiguous, allow auto‑detection with Python engine fa
 ### Constraints:
 - date_of_birth must be not null for all rows.
 - Only include rows from valid calendar filenames in 2019.
-- Do not inferverwachte_datum from filename; only from CSV.
+- Do not infer verwachte_datum from filename; only from CSV.
 
 ## File discovery & validation rules
 ### List candidates: all files under /data matching regex:
