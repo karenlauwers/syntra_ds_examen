@@ -9,3 +9,6 @@ conda env create -f environment.yml
 conda activate syntra_ds_examen
 pip install -e .
 ```
+
+## Github 
+https://github.com/karenlauwers/syntra_ds_examen
